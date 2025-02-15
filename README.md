@@ -1,0 +1,2 @@
+# MongoDB Aggregation: Incorrect $inc Operator Placement
+This repository demonstrates a common error when using the `$inc` operator within a MongoDB aggregation pipeline. The issue arises from placing `$inc` after the projection stage, resulting in an incorrect increment of the sum.
